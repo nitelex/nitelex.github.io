@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	min-height:100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1920px;
+	margin: auto;
+	background: BLACK; 
+}
+
+header{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 40px 25px 40px;
+	margin: 0px 0px 5px 0px;
+	background: #212121;
+	box-shadow: 0px 10px 10px #323232;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
+	width: 100%;
+	flex-wrap: wrap;
+}
+/*display: flex;
+	flex-grow: 1;
+	width: 100%;
+	align-items: center;
+	background: #332f2f;*/
+
+
+/*ЛОГОТИП*/
+.logo{
+	display: flex;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+
+name{
+	color: white;
+	width: 120px;
+}
+/*КОНЕЦ ЛОГОТИПА*/
+
+
+
+/*НАВИГАЦИЯ*/
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around ;
+}
+nav a{
+	border: 2px solid #14FFEC;
+	padding: 7px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 10px 5px;
+	background:#000000;
+	border-radius: 0px 25px 0px 25px;
+	transition: 0.3s;
+	font-family: arial;
+}
+nav:hover a {
+	color: gray;
+	background: #0D7377;
+}
+nav a:hover{
+	border-radius: 25px 0px 25px 0px;
+
+	color: white;
+
+
+
+	text-decoration: none;
+	background: #000000;
+	
+	border-bottom: 2px solid white;
+}
+nav a:hover{
+	border-left: 2px solid white;
+	}
+
+	nav a:hover{
+	border-top: 2px solid white;	
+}
+nav a:hover{
+border-right: 2px solid white;
+}
+nav a:focus{
+	background: white;
+	color: black;
+}
+/*КОНЕЦ НАВИГАЦИИ*/
+h2{ background: white; padding: 10px; margin: 10px; border-radius: 10px; }
+
+form img{
+	width: 100px;
+	height: 100px;
+}
+
+.form-container{
+	margin: 60px 0px;
+}
+
+/*НАСТРОЙКА СЕКЦИЙ*/
+section{
+    display: flex;
+    width: 1000px;
+    padding: auto;
+}
+/*НАСТРОЙКА ВРПАППЕРА*/
+.wrapper{
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.wrapper div{
+    display: flex;
+    background: lightgray;
+    margin: 5px;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.wrapper div img{
+	width: 20px;
+	height: 20px;
+}
+
+.form-button{
+	background: gray;
+}
+
+
+/*КОНЕЦ ВРПАППЕРА*/
+
+footer{
+	height: 100px;
+	background: black;
+	width: 100%;
+}

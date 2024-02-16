@@ -1,0 +1,23 @@
+p{
+	justify-content: center;
+	margin: 10px
+	border: 2px solid black;
+	box-shadow: 10px 0px 10px #FFA6AF;
+}
+html{
+	background: white;
+}
+body{
+	min-height: 100%;
+	max-width: 1440px;
+}
+
+div{
+	background: #FFF1FA;
+	padding: : 10px;
+	width: 100%;
+	border-radius: 20px;
+	max-width: 100%;
+	display: flex;
+	flex: wrap;
+}
